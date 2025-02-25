@@ -32,40 +32,6 @@ Each solution file includes:
 2. Find the problem by its LeetCode number or name
 3. Review the solution and explanation
 
-## Example Solution
-
-```cpp
-/**
- * LeetCode #9: Palindrome Number
- * https://leetcode.com/problems/palindrome-number/
- *
- * Determine whether an integer is a palindrome.
- * An integer is a palindrome when it reads the same backward as forward.
- * 
- * Time Complexity: O(log n) - We process half the digits in the number
- * Space Complexity: O(1) - We use a constant amount of extra space
- */
-
-class Solution {
-public:
-    bool isPalindrome(int x) {
-        // Handle negative numbers and numbers ending with 0
-        if (x < 0 || (x % 10 == 0 && x != 0)) return false;
-        
-        int revNum = 0;
-        
-        // Reverse half the number
-        while (x > revNum) {
-            revNum = revNum * 10 + x % 10;
-            x /= 10;
-        }
-        
-        // For odd-length palindromes, remove the middle digit
-        return x == revNum || x == revNum / 10;
-    }
-};
-```
-
 ## Progress Tracker
 
 | Category | Solved | Total |
@@ -94,6 +60,6 @@ Here are some resources I've found helpful in my DSA journey:
 
 ## Contact
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile/) or [Twitter](https://twitter.com/your-handle).
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/vaibhav-rajiv-kumar-53177a333/) or [Twitter](https://twitter.com/Vaibhav586).
 
 Happy Coding!
