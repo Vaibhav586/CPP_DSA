@@ -36,10 +36,10 @@ Each solution file includes:
 
 | Category | Solved | Total |
 |----------|--------|-------|
-| Easy     | 0      | 0     |
-| Medium   | 0      | 0     |
-| Hard     | 0      | 0     |
-| Total    | 0      | 0     |
+| Easy     | 11     | 904   |
+| Medium   | 9      | 1923  |
+| Hard     | 1      | 873   |
+| Total    | 21     | 3700  |
 
 ## Contribution
 
